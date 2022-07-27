@@ -17,6 +17,10 @@
 @page {
   size: A4;
 }
+.A4{
+	width: 210mm;
+    height: 297mm;
+}
 body {
   -webkit-print-color-adjust: exact;
           color-adjust: exact;
