@@ -28,7 +28,7 @@ body {
   justify-content: center;
   width: 210mm;
   height: 297mm;
-  margin: auto;
+  margin: auto !important;
 }
 .btn-print {
   z-index: 1;
