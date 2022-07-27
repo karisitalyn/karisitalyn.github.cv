@@ -17,10 +17,7 @@
 @page {
   size: A4;
 }
-.A4{
-	width: 210mm;
-    height: 297mm;
-}
+
 body {
   -webkit-print-color-adjust: exact;
           color-adjust: exact;
@@ -29,6 +26,9 @@ body {
   font-weight: 300;
   display: flex;
   justify-content: center;
+  width: 210mm;
+  height: 297mm;
+  margin: auto;
 }
 .btn-print {
   z-index: 1;
